@@ -9,13 +9,23 @@
  */
 int _factorize(int a)
 {
-	int i, j;
+	int i, j, k, l, m;
 
-	for (i = 0; i <= y; i++)
+	for (i = 0; i <= a; i++)
 	{
-		if (j % 2 == 0 || j % 3 == 0);
+		for (j = 0; j <= a; j++)
 		{
-			printf ("%d = %d * %d", i
+			k = j / 2;
+			
+			for (l = 2; l < k; l++)
+			{
+				if (j % l != 0)
+				{
+					m = i / j;
+					printf("%d = %d * %d\n", i, m, j);
+				}
+			}
 		}
 	}
+	return
 }
