@@ -18,9 +18,9 @@ int _factorize(int a)
 {
 	int i, j, k, l, m;
 
-	for (i = 0; i <= a; i++)
+	for (i = 2; i <= a; i++)
 	{
-		for (j = 0; j <= a; j++)
+		for (j = 2; j <= a; j++)
 		{
 			k = j / 2;
 			
@@ -40,7 +40,7 @@ int _factorize(int a)
 #include <stdio.h>
 
 /**
- * main - Test code
+ * main - Test the code
  *
  * Return: Nothing
  */
